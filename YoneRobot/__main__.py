@@ -350,7 +350,7 @@ def yone_about_callback(update, context):
     if query.data == "yone_":
         query.message.edit_text(
             text=""" ℹ️ I'm *prinsecc*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ tanaji 🥺🥺 you are real ultra max piro  
+                 \n❤️‍🩹 tanaji 🥺🥺 you are real ultra max piro  
                  \n❍ I can restrict users
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.

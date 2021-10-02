@@ -96,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [yone🙋‍♀️](https://telegra.ph/file/7d54491b539bc50e9d977.jpg) 
+`ʜɪ.. ɪ'ᴍ` [prinsecc 😍](https://telegra.ph/file/7d54491b539bc50e9d977.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 yone_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
@@ -384,8 +384,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *yone*
-                 \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
+            text=""" Hi..🤗 I'm *prinsecc*
+                 \nHere is the [Source Code](https://t.me/Ak_Dukhi_Aatma) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
